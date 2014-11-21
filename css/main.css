@@ -1,0 +1,28 @@
+.gameboard {
+    border: 1px solid #333;
+    display: inline-block;
+}
+
+.gameboard tr {
+    height: 5px;
+}
+
+.gameboard tr td {
+    width: 5px;
+}
+
+.gameboard tr td.alive {
+    background-color: #000;
+}
+
+rect {
+    fill: #2d578b;
+}
+
+rect.alive {
+    visibility: visible;
+}
+
+rect.dead {
+    visibility: hidden;
+}

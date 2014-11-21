@@ -1,0 +1,21 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Game Of Life</title>
+    <link href="css/main.css" rel="stylesheet" />
+</head>
+
+<body>
+    <!--Generation: <span data-bind="text: generation"></span>-->
+    <br />
+    <div id="gameboard"></div>
+    <br />
+    <button data-bind="click: tick">Step</button>
+    <button data-bind="click: run10Generations">Step 10</button>
+    <button data-bind="click: run100Generations">Step 100</button>
+    <button data-bind="click: run1000Generations">Step 1000</button>
+    <button data-bind="click: reset">Reset</button>
+
+    <script data-main="modules/main" src="lib/require.js"></script>
+</body>
+</html>
